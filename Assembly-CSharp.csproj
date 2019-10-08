@@ -300,6 +300,7 @@
      <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\IgnoreCollisionsInChildren.cs" />
      <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\KabschSolver.cs" />
      <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\PhysicsCallbacks.cs" />
+     <Compile Include="Assets\Scripts\AbstractGameObjectState.cs" />
      <Compile Include="Assets\Scripts\Ball.cs" />
      <Compile Include="Assets\Scripts\BallController.cs" />
      <Compile Include="Assets\Scripts\BallUserControl.cs" />
@@ -311,10 +312,20 @@
      <Compile Include="Assets\Scripts\GameManager2.cs" />
      <Compile Include="Assets\Scripts\GameManager3.cs" />
      <Compile Include="Assets\Scripts\GameManager4.cs" />
+     <Compile Include="Assets\Scripts\GameStates\StrikeState.cs" />
+     <Compile Include="Assets\Scripts\GameStates\StrikingState.cs" />
+     <Compile Include="Assets\Scripts\GameStates\WaitingForNextTurnState.cs" />
+     <Compile Include="Assets\Scripts\GameStates\WaitingForStrikeState.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
+     <Compile Include="Assets\Scripts\IGameObjectState.cs" />
      <Compile Include="Assets\Scripts\LifeManager.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\PocketsController.cs" />
      <Compile Include="Assets\Scripts\PoleController.cs" />
+     <Compile Include="Assets\Scripts\PoolGameController.cs" />
      <Compile Include="Assets\Scripts\Rotate.cs" />
+     <Compile Include="Assets\Scripts\ScoreController.cs" />
+     <Compile Include="Assets\Scripts\SnookerBallController.cs" />
      <Compile Include="Assets\Scripts\TableBoundary.cs" />
      <Compile Include="Assets\Scripts\TextChargeManager.cs" />
      <Compile Include="Assets\Scripts\TextManager.cs" />
@@ -328,6 +339,7 @@
      <None Include="Assets\LeapMotion\Core\Shaders\ThresholdOverlay.shader" />
      <None Include="Assets\LeapMotion\Core\Shaders\PassthroughForeground.shader" />
      <None Include="Assets\LeapMotion\Core\Shaders\PassthroughBackground.shader" />
+     <None Include="Assets\PoolTable\archibase.net.txt" />
      <None Include="Assets\LeapMotion\Core\Version.txt" />
      <None Include="Assets\LeapMotion\Core\Shaders\VertexOffsetShader.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">

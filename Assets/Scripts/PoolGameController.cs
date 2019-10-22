@@ -31,8 +31,8 @@ public class PoolGameController : MonoBehaviour {
 
 	void Start() {
 		strikeDirection = Vector3.forward;
-		CurrentPlayer = new Player("John");
-		OtherPlayer = new Player("Doe");
+		//CurrentPlayer = new Player("John");
+		//OtherPlayer = new Player("Doe");
 
 		GameInstance = this;
 		winnerMessage.GetComponent<Canvas>().enabled = false;

@@ -544,6 +544,12 @@
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>C:/Users/pauld/Desktop/RoboticExoskeletonController/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
+ <Reference Include="OSCsharp">
+ <HintPath>C:/Users/pauld/Desktop/RoboticExoskeletonController/Assets/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
+ </Reference>
+ <Reference Include="TUIOsharp">
+ <HintPath>C:/Users/pauld/Desktop/RoboticExoskeletonController/Assets/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
+ </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
  </Reference>

@@ -342,6 +342,12 @@
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>C:/Users/pauld/Desktop/RoboticExoskeletonController/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
+ <Reference Include="OSCsharp">
+ <HintPath>C:/Users/pauld/Desktop/RoboticExoskeletonController/Assets/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
+ </Reference>
+ <Reference Include="TUIOsharp">
+ <HintPath>C:/Users/pauld/Desktop/RoboticExoskeletonController/Assets/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
+ </Reference>
  <Reference Include="nunit.framework">
  <HintPath>C:/Users/pauld/Desktop/RoboticExoskeletonController/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>

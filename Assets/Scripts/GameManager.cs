@@ -15,7 +15,6 @@ public class GameManager : MonoBehaviour {
 
     public int score = 0;
     public bool canBeatLevel = false;
-    //public egInt beatLevelScore = 1;
     public int beatLevelScore;
 
     public GameObject mainCanvas;
@@ -36,7 +35,6 @@ public class GameManager : MonoBehaviour {
  
 
     void Start() {
-        //VariableHandler.Instance.Register(RBParameterStrings.GAME_SCORE, beatLevelScore);
 
         if (gm == null)
             gm = gameObject.GetComponent<GameManager>();
@@ -104,7 +102,7 @@ public class GameManager : MonoBehaviour {
                 //{
                 //    AudioSource.PlayClipAtPoint(beatLevelSFX, gameObject.transform.position);
 
-                //    gameState = gameStates.GameOver;
+                //     gameState = gameStates.GameOver;
                 //}
                 break;
             //Generic. Gameover could mean you either won or lost
@@ -124,14 +122,14 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    public void ScoreReset() {
-        score -= 2;
-        mainScoreDisplay.text = score.ToString() + " of " + beatLevelScore.ToString();
-        if (score <= 0)
-        {
-            score = 0;
-            mainScoreDisplay.text = score.ToString() + " of " + beatLevelScore.ToString();
-        }
+    //public void ScoreReset() {
+    //    score -= 2;
+    //    mainScoreDisplay.text = score.ToString() + " of " + beatLevelScore.ToString();
+    //    if (score <= 0)
+    //    {
+    //        score = 0;
+    //        mainScoreDisplay.text = score.ToString() + " of " + beatLevelScore.ToString();
+    //    }
 
-    }
+    //}
 }

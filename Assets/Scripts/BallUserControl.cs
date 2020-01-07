@@ -1,6 +1,6 @@
 using System;
 using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
+//using UnityStandardAssets.CrossPlatformInput;
 
 namespace UnityStandardAssets.Vehicles.Ball
 {
@@ -21,7 +21,6 @@ namespace UnityStandardAssets.Vehicles.Ball
             // Set up the reference.
             ball = GetComponent<Ball>();
 
-
             // get the transform of the main camera
             if (Camera.main != null)
             {
@@ -40,9 +39,9 @@ namespace UnityStandardAssets.Vehicles.Ball
         {
             // Get the axis and jump input.
 
-            float h = CrossPlatformInputManager.GetAxis("Horizontal");
-            float v = CrossPlatformInputManager.GetAxis("Vertical");
-            jump = CrossPlatformInputManager.GetButton("Jump");
+            float h = Input.GetAxisRaw("Horizontal");
+            float v = Input.GetAxisRaw("Vertical");
+           // jump = CrossPlatformInputManager.GetButton("Jump");
 
             // calculate move direction
             if (cam != null)
@@ -57,7 +56,6 @@ namespace UnityStandardAssets.Vehicles.Ball
                 move = (v*Vector3.forward + h*Vector3.right).normalized;
             }
         }
-
 
         private void FixedUpdate()
         {

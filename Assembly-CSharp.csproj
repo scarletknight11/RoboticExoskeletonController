@@ -59,6 +59,16 @@
      <Compile Include="Assets\ErbGameArt\Random effects pack\Demo scenes\CameraHolder.cs" />
      <Compile Include="Assets\FireExplosionVFX\Scripts\FxSplash.cs" />
      <Compile Include="Assets\FireExplosionVFX\Scripts\LaunchEffect.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\BasicMazeGenerator.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\DivisionMazeGenerator.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\MazeCell.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\MazeSpawner.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\OldestTreeMazeGenerator.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\RandomTreeMazeGenerator.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\RecursiveMazeGenerator.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\RecursiveTreeMazeGenerator.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\RollerBall.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\TreeMazeGenerator.cs" />
      <Compile Include="Assets\Projects\IMU\ReceiveIMUValues.cs" />
      <Compile Include="Assets\Scripts\AbstractGameObjectState.cs" />
      <Compile Include="Assets\Scripts\Arduino.cs" />
@@ -122,6 +132,7 @@
      <None Include="Assets\_Barking_Dog\Readme_Please.txt" />
      <None Include="Assets\StreamingAssets\calibration.xml" />
      <None Include="Assets\StreamingAssets\calibration-OneWall.xml" />
+     <None Include="Assets\Rocklynn Productions - Water Splash Pack\Read me.txt" />
      <None Include="Assets\StreamingAssets\calibration-PowerWall.xml" />
      <None Include="Assets\StreamingAssets\calibration-screen.xml" />
      <None Include="Assets\ErbGameArt\Random effects pack\Prefabs\ReadMe.txt" />
